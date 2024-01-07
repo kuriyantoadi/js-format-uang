@@ -1,4 +1,4 @@
-  // Fungsi untuk memformat input sebagai bilangan uang
+// Fungsi untuk memformat input sebagai bilangan uang
   function formatUang(input) {
     // Menghapus karakter selain angka dan titik desimal
     let cleanedValue = input.value.replace(/[^\d.]/g, '');
@@ -20,4 +20,7 @@
     // Menetapkan hasil format kembali ke input
     input.value = formattedValue;
   }
+
+// sumber code 
+// https://github.com/kuriyantoadi/js-format-uang/blob/main/format-uang.js
 
